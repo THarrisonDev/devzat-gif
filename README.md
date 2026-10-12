@@ -50,8 +50,8 @@ Dry run (no server):
 sudo DEVZAT_TOKEN=dvz@... ./install.sh
 ```
 
-Reuses the same plugin-API token as `devzat-github`. See that project's README
-for enabling the RPC integration (`rpc.port: 5556`) and minting a token.
+Uses its own plugin-API token (mint one per plugin with `grant` in chat — see
+`devzat-deploy`'s README for enabling the RPC integration and `rpc.port: 5556`).
 
 ## Attribution
 
